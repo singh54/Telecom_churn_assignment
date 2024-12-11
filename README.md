@@ -15,10 +15,10 @@ potential customers who have a higher probability to churn. This will help the c
 churn and will increase the focus on strategising customer retention.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The ensemble-based models (Adaboost Classifier, Adaboost Classifier Tuned, and Gradient Boost Classifier and Gradient boost tuned) outperform both the Decision Tree models and the Random Forest Estimator in terms of reducing the overfitting problem and better generalisation.
+- The boosting models Adaboost and Gradient Boost Classifier performed equally almost similar, as boosting which combines multiple weak learners (decision trees) to create a strong predictive model. Boosting algorithms iteratively train models, focusing on misclassified instances from previous iterations. This iterative process allows the model to learn and improve its predictions over time.
+- The Gradient Boost Classifier demonstrated the best performance on the test stage among the compared models. This suggests that the Gradient Boost Classifier is well-suited for predicting potential churn customers on unseen data.
+
 
 
 
